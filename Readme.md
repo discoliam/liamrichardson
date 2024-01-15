@@ -1,5 +1,6 @@
 # Liam Richardson
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa82db72-b5c3-4a13-a398-162b644fd863/deploy-status)](https://app.netlify.com/sites/lively-kangaroo-57c45f/deploys)
 
 The website for [liamrichardson.co.uk](https://liamrichardson.co.uk/).
 
@@ -12,8 +13,8 @@ The website for [liamrichardson.co.uk](https://liamrichardson.co.uk/).
 
 ## 📝 Colophon
 
-- [11ty](https://www.11ty.dev/) as a Static Site Generator
-- [Nunjucks](https://mozilla.github.io/nunjucks/) for templating.
+- [11ty](https://www.11ty.dev/)
+- [liquid](https://shopify.github.io/liquid/)
 - [Webpack](https://webpack.js.org/)
 - [PostCSS](https://postcss.org/)
 - [postcss-preset-env](https://preset-env.cssdb.org/)
