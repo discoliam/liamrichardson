@@ -1,0 +1,29 @@
+{% assign navPages = collections.header | eleventyNavigation %}
+
+<header class='Header'>
+  <div class='Container'>
+    <h1>
+      <a class='Header__Site-Title' href='/'>
+        {{ site.name }}
+      </a>
+    </h1>
+
+    <nav class='Header__Nav'>
+      <ul class='MainNav'>
+        {% for entry in navPages %}
+          <li class='MainNav__Item'>
+            <a
+              class='MainNav__Link'
+              href='{{ entry.url | url }}'
+              {% if entry.url == page.url %}
+                aria-current='true'
+              {% endif %}
+            >
+              {{- entry.title -}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

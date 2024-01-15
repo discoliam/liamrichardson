@@ -1,0 +1,26 @@
+---
+title: 'Contact | Liam Richardson'
+description: 'Get in touch.'
+pageTitle: Contact
+layout: 'layouts/centered.html'
+tags: header
+eleventyNavigation:
+  key: Contact
+  order: 6
+---
+<ul>
+  {% for contact in contacts %}
+    <li>
+      <a
+        href='{{ protocol }}{{ contact.url | url }}'
+        rel='{% if contact.rel %}{{contact.rel}}{% endif %} {% if contact.target %}noopener{% endif %}'
+        {% if contact.target %}
+          target='{{ contact.target }}' rel='noopener'
+        {% endif %}
+      >
+        {{ contact.emoji }}
+        {{ contact.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

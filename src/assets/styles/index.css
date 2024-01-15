@@ -1,0 +1,346 @@
+:root {
+  /* colo(u)rs */
+  --black: #000000;
+  --white: #ffffff;
+
+  --yellow: #e1ad01;
+  --turq: #01e1ad;
+  --purple: #ad01e1;
+
+  /* Spacing */
+  --gap: 30px;
+  --spacing--s: 15px;
+  --spacing--m: 30px;
+  --spacing--l: 60px;
+  --spacing--xl: 90px;
+  --spacing--xxl: 120px;
+
+  --font--heading: 'Hubot Sans';
+  --font--body: 'Mona Sans';
+
+  /* font sizes */
+  /* --px-to-rem: calc((var(--pixels) / 16) * 1rem); */
+  --font-size--h1: calc((54 / 16) * 1rem); /* 56px */
+  --font-size--h2: calc((40 / 16) * 1rem); /* 32px */
+  --font-size--h3: calc((32 / 16) * 1rem); /* 26px */
+  --font-size--h4: calc((26 / 16) * 1rem); /* 23px */
+  --font-size--h5: calc((23 / 16) * 1rem); /* 22px */
+  --font-size--h6: calc((16 / 16) * 1rem); /* 16px */
+  --font-size--base: calc((16 / 16) * 1rem); /* 16px */
+  --font-size--Lede: calc((20 / 16) * 1rem); /* 16px */
+
+  /* Transitions */
+  --global-transition: 150ms ease;
+}
+
+@font-face {
+  font-family: 'Hubot Sans';
+  src: url('../fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
+    url('../fonts/Hubot-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('../fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('../fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-variation-settings: 'slnt' 10, 'wdth' 75;
+}
+
+/* base settings */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font--body);
+  /* background-color: var(--yellow); */
+  font-optical-sizing: auto;
+  color: var(--color-black);
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-size: var(--font-size--base);
+  color: var(--black);
+}
+
+a {
+  color: var(--black);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--turq);
+  text-decoration-thickness: 0.2rem;
+  text-decoration-skip-ink: none;
+  transition: text-decoration var(--global-transition);
+  &:hover {
+    text-decoration-color: var(--purple);
+    text-decoration-thickness: 0;
+  }
+}
+
+/* Type */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font--heading);
+  font-weight: 600;
+  font-stretch: 125%;
+  /* color: var(--white); */
+}
+
+h1 {
+  font-size: var(--font-size--h1);
+}
+
+h2 {
+  font-size: var(--font-size--h2);
+}
+
+h3 {
+  font-size: var(--font-size--h3);
+}
+
+h4 {
+  font-size: var(--font-size--h4);
+}
+
+h5 {
+  font-size: var(--font-size--h5);
+}
+
+h6 {
+  font-size: var(--font-size--h6);
+}
+
+blockquote {
+  font-family: var(--font--heading);
+  color: var(--white);
+  font-size: min(40px, 4vw);
+  font-weight: 200;
+  font-stretch: 75%;
+  font-variation-settings: 'ital' 10, 'slnt' 10, 'wdth' 75;
+}
+
+/* A11y */
+.visually-hidden,
+.sr-only {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  word-wrap: normal !important;
+}
+
+.visually-hidden--inline {
+  margin: 0;
+  height: 1em;
+}
+
+.skip-to-content-link:focus {
+  z-index: 9999;
+  position: inherit;
+  overflow: auto;
+  width: auto;
+  height: auto;
+  clip: auto;
+}
+
+/* Flow */
+
+/* @link https://utopia.fyi/type/calculator?c=320,18,1.25,1240,18,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --size-step-0: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
+  --size-step-1: clamp(1.25rem, calc(1.16rem + 0.43vw), 1.5rem);
+  --size-step-2: clamp(1.56rem, calc(1.41rem + 0.76vw), 2rem);
+  --size-step-3: clamp(1.95rem, calc(1.71rem + 1.24vw), 2.66rem);
+  --size-step-4: clamp(2.44rem, calc(2.05rem + 1.93vw), 3.55rem);
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: var(--size-step-0);
+  line-height: 1.7;
+}
+
+a {
+  color: currentColor;
+  text-decoration-color: var(--turq);
+  text-decoration-thickness: 0.3ex;
+  text-underline-offset: 0.3ex;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--size-step-4);
+}
+
+h2 {
+  font-size: var(--size-step-3);
+}
+
+h3 {
+  font-size: var(--size-step-2);
+}
+
+ul,
+ol {
+  padding-inline-start: 1em;
+}
+
+blockquote {
+  padding-inline-start: 1em;
+  border-inline-start: 0.3em solid;
+  font-style: italic;
+  font-size: var(--size-step-1);
+}
+
+/* Utilities */
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+/* Flow and rythm */
+:is(h1, h2, h3, blockquote) {
+  --flow-space: 1.5em;
+}
+
+:is(h1, h2, h3) + * {
+  --flow-space: 0.5em;
+}
+
+/* Line lengths */
+article {
+  max-width: 65ch;
+  margin-inline: auto;
+}
+
+blockquote {
+  max-width: 50ch;
+}
+
+h1 {
+  max-width: 20ch;
+}
+
+h2,
+h3 {
+  max-width: 28ch;
+}
+
+/* Blocks */
+.Lede {
+  font-size: var(--size-step-1);
+  font-style: italic;
+  max-width: 50ch;
+  text-wrap: balance;
+}
+
+.Lede + * {
+  --flow-space: 2em;
+}
+
+.Container {
+  margin: 0 auto;
+  width: calc(100% - 2em);
+  max-width: 1140px;
+}
+
+/* Main Nav */
+
+.MainNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--gap);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Music */
+.MusicList {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size, 16rem), 1fr)
+  );
+  grid-gap: var(--gap);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.MusicList__Release {
+  max-width: unset;
+  margin: unset;
+}
+
+.MusicList__ImgWrap {
+  width: 100%;
+  position: relative;
+}
+
+.MusicList__Image {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  aspect-ratio: 1/1;
+}
+
+.MusicList__Meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  & dt {
+    flex: 0 0 100px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  & dd {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: calc(100% - 100px);
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Footer */
+.Footer {
+  border-top: solid 2px var(--purple);
+  padding: 2em 0;
+  margin-top: 2em;
+}
