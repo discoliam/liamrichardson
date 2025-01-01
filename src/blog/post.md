@@ -1,6 +1,6 @@
 ---
 title: This is my second post.
-layout: 'layouts/blog.html'
+layout: 'layouts/default.html'
 description: This is a post on My Blog about agile frameworks.
 date: 2023-12-20
 tags:

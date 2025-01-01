@@ -1,8 +1,8 @@
 {% assign navPages = collections.footer | eleventyNavigation %}
 
 <footer class='Footer'>
-  <div class='Container Footer__Content'>
-    <div class='Footer__Social'>
+  <div class='Container'>
+    {% comment %} <div class='Footer__Social'>
       <nav class='SocialNav'>
         {% for contact in contacts %}
           <a
@@ -12,7 +12,7 @@
               target='{{ contact.target }}' rel='noopener'
             {% endif %}
           >
-            {% comment %} {% svg svg_name %} {% endcomment %}
+              {{  contact.name }}
             <span class='sr-only'>
               {{- contact.name }}
               {% if contact.target %}- Opens in new Tab{% endif -%}
@@ -20,23 +20,24 @@
           </a>
         {% endfor %}
       </nav>
-    </div>
+    </div> {% endcomment %}
 
-    <div class='Footer__Nav'>
-      <ul class='FooterNav'>
-        {% for entry in navPages %}
-          <li class='FooterNav__Item'>
-            <a class='FooterNav__Link' href='{{ entry.url | url }}'>
-              {{ entry.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+    <ul class='FooterNav'>
+      {% for entry in navPages %}
+        <li class='FooterNav__Item'>
+          <a class='FooterNav__Link' href='{{ entry.url | url }}'>
+            {{ entry.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="Footer__Details">
+    <div class="Container">
+      <p class='Footer__Copy Subtitle'>&copy; Liam Richardson.</p>
+      <div id='wcb' class='carbonbadge wcb-d'></div>
     </div>
   </div>
 
-  <div class='Container Footer__Details'>
-    <p class='Footer__Copy Subtitle'>&copy; Liam Richardson.</p>
-    <div id='wcb' class='carbonbadge wcb-d'></div>
-  </div>
 </footer>

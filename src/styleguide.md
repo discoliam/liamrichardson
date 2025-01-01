@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/centered.html'
+layout: 'layouts/text.html'
 title: Styleguide | Liam Richardson
 pageTitle: Styleguide
 description: An incomplete styleguide you say?

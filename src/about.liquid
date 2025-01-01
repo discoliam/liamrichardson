@@ -1,0 +1,50 @@
+---
+layout: 'layouts/text.html'
+title: About | Liam Richardson
+pageTitle: About
+description: Do you hate writing about yourself as much as I do?
+tags: header
+eleventyNavigation:
+  key: About
+  order: 2
+---
+
+<p>Liam Richardson (he / him)</p>
+
+<h2>In a nutshell:</h2>
+
+
+<ul>
+  <li>Mountain bikes slowly</li>
+  <li>Used to run a Local Music zine (Fleet Fleet Fleet)</li>
+  <li>Often found outside hiking/cycling/picnic-ing</li>
+  <li>Thinks too much about coffee</li>
+  <li>Stands at the back of music venues</li>
+  <li>Used to live in Canada</li>
+  <li>Vegetarian</li>
+  <li>Dyslexic</li>
+</ul>
+
+
+<h2>Work</h2>
+
+<p>Long story short, I make <a href="https://discoliam.com">websites</a>.</p>
+
+<h2>Contact</h2>
+
+<ul>
+  {% for contact in contacts %}
+    <li>
+      <a
+        href='{{ protocol }}{{ contact.url | url }}'
+        rel='{% if contact.rel %}{{contact.rel}}{% endif %} {% if contact.target %}noopener{% endif %}'
+        {% if contact.target %}
+          target='{{ contact.target }}' rel='noopener'
+        {% endif %}
+      >
+        {{ contact.emoji }}
+        {{ contact.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,15 +1,17 @@
 ---
 title: 'Liam Richardson'
-description: 'Liam Richardson builds award-winning Websites, Design Systems, and Installations for clients around the globe'
-layout: 'layouts/centered.html'
+description: 'The personal website of Liam Richardson'
+layout: 'layouts/text.html'
 tags: header
 eleventyNavigation:
   key: Home
   order: 1
 ---
 
-# Hi, Hello, Yo
+# Hi 👋
 
-I'm **Liam**. This is just my website for websitey things I want to put online. It's being built in the open, so if something is broken, sorry I'll fix it soon.
+<p class="Lede"?>Hi, I'm <strong>Liam</strong>. Or, thanks to a misguided choice of nickname one summer when I was 12 years old, <em>DiscoLiam</em> 🪩.</p>
 
-If you're interested in my work, head on over to [discoliam.com](https://discoliam.com) which is the more professional though stupid sounding business site. I've got this wrong somehow haven't I?
+This is where I put some weird personal projects online. Nothing too exciting to be honest, but some of it didn't need to be on my work site.
+
+If you're interested in my work 🤓, head on over to [discoliam.com](https://discoliam.com) which is the more professional though stupid-sounding business site. I've got this wrong somehow, haven't I?
