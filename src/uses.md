@@ -39,7 +39,7 @@ For input, I'm using the combo of a [Logitech MX Master 3](https://www.logitech.
 
 My Desktop is a stupidly heavy bit of wood rescued from an office refurbishment job in Bristol. A friend saw a load of wood going in the bin, so just chucked it in his boot and gave me a call. For legs, I'm using [Flexispot EF1](https://flexispot.co.uk/electric-height-adjustable-standing-desk-e1.html) which I like, especially for the price.
 
-I'm using Full [Fully Jarvis Dual Monitor Arms](https://www.amazon.co.uk/Jarvis-Monitor-Mounting-Computer-Displays/dp/B071G47JJG), with a laptop stand on one of the arms. I was lucky enough to be given this by a friend, and don't think I'll go back now.
+I'm using [Fully Jarvis Dual Monitor Arms](https://www.amazon.co.uk/Jarvis-Monitor-Mounting-Computer-Displays/dp/B071G47JJG), with a laptop stand on one of the arms. I was lucky enough to be given this by a friend, and don't think I'll go back now.
 
 To hide a few old drill holes I'm using a [Dotgrid Black deskmat](https://www.dotgrid.co/products/vegan-leather-desk-mat-black), mostly as it had a good review from [David Darnes](https://setups.co/posts/david-darnes).
 
@@ -73,7 +73,7 @@ I pair this with a [Eureka Mignon Zero](https://www.eureka.co.it/en/catalogo/pro
 
 For filter brewing, I use a [Hario V60](https://www.hario.co.uk/products/hario-v60-drip-decanter-pour-over-coffee-maker-700ml) or an [AeroPress](https://aeropress.com/), which for both I have a variety of paper, metal, and cloth filters. When travelling, I'll normally carry a [MiiR Pourigami](https://www.miir.com/collections/pourigami-travel-coffee-system/products/pourigami-portable-travel-coffee-dripper).
 
-I've fully brought into Fellow, picking up a [Stagg EKG](https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle) Electric Kettle and [Tally™ Pro](https://fellowproducts.com/products/tally-coffee-scale) scales.
+I've brought into Fellow, picking up a [Stagg EKG](https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle) Electric Kettle and [Tally™ Pro](https://fellowproducts.com/products/tally-coffee-scale) scales.
 
 The coffee bar is getting a bit excessive, but maybe I'll pick up a [Clever Dripper](https://shop.squaremilecoffee.com/products/clever-coffee-dripper) and some sort of [Mokka Pot](https://www.bialetti.com/it_en/shop/caffettiere/caffettiere.html) in the near future.
 
@@ -81,7 +81,7 @@ As for techniques/recepies/ratios, I'll do whatever [James Hoffmann](https://www
 
 ## Other
 
-- My phone is a [iPhone 16](https://www.apple.com/iphone-16/). Since 2020 I've fully commited to the Apple eco system after years on android.
+- My phone is a [iPhone 16](https://www.apple.com/iphone-16/).
 
 - I also have an [iPad Air M2](https://www.apple.com/uk/ipad-air/) which I mostly use for looking up recipes in the kitchen or watching movies on public transport.
 

@@ -11,6 +11,12 @@
     "emoji": "📷"
   },
   {
+    "name": "Leterboxd",
+    "url": "https://letterboxd.com/discoliam/",
+    "target": "_blank",
+    "emoji": "🍿"
+  },
+  {
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/liamrichardson/",
     "target": "_blank",
@@ -20,7 +26,7 @@
     "name": "Github",
     "url": "https://github.com/discoliam/",
     "target": "_blank",
-    "emoji": "🗂"
+    "emoji": "🧑‍💻"
   },
   {
     "name": "Mastodon",

@@ -1,0 +1,27 @@
+{% layout 'layouts/base.liquid' %}
+
+{% block content %}
+<div class="Page Page--weeknote" id="main-content">
+  <div class="Container Container--text Flow">
+    <h1>{{title}}</h1>
+
+    <time datetime='{{ date | htmlDateString }}'>
+
+      {%- case date -%}
+      {%- when 1 -%}
+      {% assign suffix = 'st' %}
+      {%- when 2 -%}
+      {% assign suffix = 'nd' %}
+      {%- when 3 -%}
+      {% assign suffix = 'rd' %}
+      {%- else -%}
+      {% assign suffix = 'th' %}
+      {%- endcase -%}
+      {{ date | date: "%e[S] %B, %Y" | replace: '[S]',suffix }}
+    </time>
+
+
+    {{- content -}}
+  </div>
+</div>
+{% endblock %}

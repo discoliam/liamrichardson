@@ -281,6 +281,61 @@ article {
   }
 }
 
+.MusicNavigation__List {
+  list-style-type: none;
+  margin: 3em 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+
+@media only screen and (min-width: 40em) {
+  .MusicLayout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    gap: 1em;
+  }
+  .MusicStats {
+    grid-column: 9 / span 4;
+    grid-row: 1;
+    position: relative;
+  }
+  .MusicList {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+  }
+  .MusicStats__Wrapper {
+    position: sticky;
+    top: 1em;
+  }
+}
+
+/* Weeknotes */
+.Weeknotes {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  & li {
+    margin-bottom: 2em;
+    & h2 {
+      font-size: var(--size-step-2);
+      text-transform: none;
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+.Page--weeknote .Flow li {
+  margin-bottom: 1em;
+}
+
+time {
+  color: var(--yellow);
+}
+
 /* Footer */
 footer {
   background-color: var(--turq);

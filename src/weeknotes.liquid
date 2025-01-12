@@ -1,0 +1,42 @@
+---
+title: Weeknotes | Liam Richardson
+pageTitle: Weeknotes
+description: Weekly notes about, well, anything really
+layout: 'layouts/text.html'
+tags: header
+eleventyNavigation:
+  key: Weeknotes
+  order: 6
+---
+
+
+{% assign postslist = collections.posts | reverse %}
+<ol class="Weeknotes" reversed>
+  {% for post in postslist %}
+    <li>
+      <h2>
+        <a href='{{ post.url }}' class='postlist-link'>
+          {{- post.data.title -}}
+        </a>
+      </h2>
+      <time datetime='{{ post.date | htmlDateString }}'>
+
+        {%- case post.date -%}
+        {%- when 1 -%}
+            {% assign suffix = 'st' %}
+        {%- when 2 -%}
+            {% assign suffix = 'nd' %}
+        {%- when 3 -%}
+            {% assign suffix = 'rd' %}
+        {%- else -%}
+            {% assign suffix = 'th' %}
+    {%- endcase -%}
+    {{ post.date | date: "%e[S] %B, %Y" | replace: '[S]',suffix }}
+
+
+
+
+      </time>
+    </li>
+  {% endfor %}
+</ol>
