@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Editor + Terminal
 
-I've been all in on [Visual Studio Code](https://code.visualstudio.com/) for a few years now. I'm constatnly playing around with settings, but I'm pretty happy at the mo. I'm using [Dracula](https://draculatheme.com/) and the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) and [Victor Mono](https://rubjo.github.io/victor-mono/) as a monospace font.
+I've been all in on [Visual Studio Code](https://code.visualstudio.com/) for a few years now. I'm constantly playing around with settings, but I'm pretty happy at the mo. I'm using [Dracula](https://draculatheme.com/) and the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) and [Victor Mono](https://rubjo.github.io/victor-mono/) as a monospace font.
 
 After experimenting with a few different terminals, I've switched back to [iTerm2](https://iterm2.com/), but frankly, I normally use VScodes built-in terminal.
 
@@ -29,7 +29,7 @@ For design stuff, I'm now fully onboard the [Figma](https://www.figma.com) train
 
 ## Hardware
 
-I have a [14 Inch Macbook Pro (2021)](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-pro-8-core-cpu-14-core-gpu-14-2021-specs.html). Having had an M2 Air for a short time for work, I don't think I'd buy a Pro model again. These M series chips are insane, and I don't think I've herd the fans once.
+I have a [14 Inch Macbook Pro (2021)](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-m1-pro-8-core-cpu-14-core-gpu-14-2021-specs.html). Having had an M2 Air for a short time for work, I don't think I'd buy a Pro model again. These M series chips are insane, and I don't think I've heard the fans once.
 
 On my desk is a [Samsung 27" S80TB ViewFinity UHD Monitor](https://www.samsung.com/uk/monitors/high-resolution/viewfinity-s8-27--27-inch-ips-uhd-thunderbolt-ls27b800tguxxu) which I managed to get for a steal from Costco. Its not perfect, but was over £1000 cheaper than the Apple Studio Display.
 
@@ -43,7 +43,7 @@ I'm using [Fully Jarvis Dual Monitor Arms](https://www.amazon.co.uk/Jarvis-Monit
 
 To hide a few old drill holes I'm using a [Dotgrid Black deskmat](https://www.dotgrid.co/products/vegan-leather-desk-mat-black), mostly as it had a good review from [David Darnes](https://setups.co/posts/david-darnes).
 
-My chair is a [Ikea LÅNGFJÄLL](https://www.ikea.com/gb/en/p/langfjaell-conference-chair-gunnared-dark-grey-black-s99177641). Brought mostly because it was pretty cheap when we first moved back from Canada, it acctually suits me well.
+My chair is an [Ikea LÅNGFJÄLL](https://www.ikea.com/gb/en/p/langfjaell-conference-chair-gunnared-dark-grey-black-s99177641). Bought it mostly because it was pretty cheap when we first moved back from Canada, it actually suits me well.
 
 ## Audio
 
@@ -77,7 +77,7 @@ I've brought into Fellow, picking up a [Stagg EKG](https://fellowproducts.com/pr
 
 The coffee bar is getting a bit excessive, but maybe I'll pick up a [Clever Dripper](https://shop.squaremilecoffee.com/products/clever-coffee-dripper) and some sort of [Mokka Pot](https://www.bialetti.com/it_en/shop/caffettiere/caffettiere.html) in the near future.
 
-As for techniques/recepies/ratios, I'll do whatever [James Hoffmann](https://www.jameshoffmann.co.uk/) recommends.
+As for techniques/recipes/ratios, I'll do whatever [James Hoffmann](https://www.jameshoffmann.co.uk/) recommends.
 
 ## Other
 
