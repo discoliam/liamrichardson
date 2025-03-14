@@ -5,21 +5,27 @@ pageTitle: /uses
 description: What to know what I use to make stuff? Well then...
 tags: header
 eleventyNavigation:
-  key: /uses
-  order: 4
+key: /uses
+order: 4
 ---
 
 <p class="Lede">Inspired by <a href="https://wesbos.com/uses/" target="_blank">Wes Bos</a> (as I found his resource very useful) this is a quick rundown of the things I use day to day for work / general messing around.</p>
 
 ## Editor + Terminal
 
-I've been all in on [Visual Studio Code](https://code.visualstudio.com/) for a few years now. I'm constantly playing around with settings, but I'm pretty happy at the mo. I'm using [Dracula](https://draculatheme.com/) and the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) and [Victor Mono](https://rubjo.github.io/victor-mono/) as a monospace font.
+I'm using [Cursor](https://www.cursor.com/), but just dipping my toes into the AI hype train. It was pretty straight forward to transfer all my [Visual Studio Code](https://code.visualstudio.com/) settings, though a couple of teething options to sort out. Appearance wise I'm using:
 
-After experimenting with a few different terminals, I've switched back to [iTerm2](https://iterm2.com/), but frankly, I normally use VScodes built-in terminal.
+- [Dracula](https://draculatheme.com/) colours for everything
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) for icons
+- [Victor Mono](https://rubjo.github.io/victor-mono/) for monospace reading
 
-For my shell, I'm using [ZSH](https://ohmyz.sh/), again stealing [Wes's](https://github.com/wesbos/Cobalt2-iterm) setup, and I'm pretty happy with that.
+I never really need a separate terminal app, but if I do, its a mix of [Ghostty](https://ghostty.org/) or [iTerm2](https://iterm2.com/).
 
-I use [Amazon Q](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) for code completion in the temrnal, somewhat by acident as they aquired [Fig](https://fig.io/). But, seems to work nicley.
+### Shell
+
+I'm using [Oh My Posh](https://ohmyposh.dev/) to style my prompt in ZSH. I ended up making [my own](https://github.com/discoliam/dotfiles/blob/main/.omp.discoliam.json) but used [Dracula](https://draculatheme.com/oh-my-posh) as a starting point. This is mostly replicating the functionality I liked from [Wes's](https://github.com/wesbos/Cobalt2-iterm) setup.
+
+I use [Amazon Q](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html) for code completion in the terminal, somewhat by accident as they acquired [Fig](https://fig.io/). But, seems to work.
 
 ## Desktop Apps
 
@@ -82,9 +88,7 @@ As for techniques/recipes/ratios, I'll do whatever [James Hoffmann](https://www.
 ## Other
 
 - My phone is a [iPhone 16](https://www.apple.com/iphone-16/).
-
 - I also have an [iPad Air M2](https://www.apple.com/uk/ipad-air/) which I mostly use for looking up recipes in the kitchen or watching movies on public transport.
-
 - My daily backpack is a handmade Daysack by [Big Top](https://www.instagram.com/bigxtop/). It's fully waterproof (rain-wise), I've had it for 11 years and I imagine it'll last forever.
 
 ### Further Reading
