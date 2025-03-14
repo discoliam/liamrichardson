@@ -14,6 +14,6 @@ eleventyNavigation:
 
 This is where I put some weird personal projects online. Nothing too exciting to be honest, but some of it didn't need to be on my work site.
 
-I'm currently the Development Lead at [FutureKings](https://futrekings.co.uk).
+I'm currently the Development Lead at [FutureKings](https://futurekings.co.uk).
 
 If you're interested in my work 🤓, head on over to [discoliam.com](https://discoliam.com) which is the more professional though stupid-sounding business site. I've got this wrong somehow, haven't I?
