@@ -18,3 +18,4 @@ tags:
   - It wasn't the greatest night sleep, but I'm glad I did it. If it warms up soon, I'll try again I think.
 - Finally brought a new bike stem and re-wrapped my bars since the tape came off and I bent my shifter in December. Nice to have some straight brakes again. Bike riding was uninspired this week. But, keen to get on it again this week, as [BITW](https://www.brothercycles.com/2024/11/brother-in-the-wild-dorset-25-tickets-coming-soon/#tickets) is fast approaching and I am not fit enough
 - On that front, I picked up [Gravel Rides South West England](https://www.adventurebooks.com/products/gravel-rides-south-west-england). Only skimmed so far, but looks like some good rides to start ticking off.
+- Today is the 5 year anniversary of being laid of thanks to Covid. It was an up and down job, but I do miss some of the friends I made there I've lost touch with since we left Canada.
